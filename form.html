@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="Firstname">Firstname:</label>
+        <input minlength="2" maxlength="25" type="text" id="Firstname" required>
+        <br><br>
+        <label for="Middlename">Middlename:</label>
+        <input minlength="2" maxlength="3" type="text" id="Middlename">
+        <br><br>
+        <label for="Lastname">Lastname:</label>
+        <input minlength="2" maxlength="25" type="text" id="Lastname" required>
+        <br><br>
+        <label for="course">Course:</label>
+        <select id="course" required>
+        <option value="">Course</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="B.B.A">B.B.A</option>
+        <option value="B.A">B.A</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label><br>
+        
+        <br>
+       <label for="dob">DOB</label>
+       <input type="datetime-local" name="dob" id="dob"><br>
+      
+       <label for="phone">Phone:</label>
+       <input type="tel" value="+91" disabled style="width: 30px;">
+       <input type="tel" name="phone" id="phone">
+       <br><br>
+       <label for="address">Address</label><br>
+       <textarea name="address" id="address" cols="70" rows="5"></textarea>
+       <br><br>
+       <label for="email">Email:</label>
+       <input type="email" name="email" id="email">
+       <br><br><br>
+       <label for="password">Password:</label>
+       <input type="password" name="password" id="password">
+       <br><br><br>
+       <label for="password">Re-type password:</label>
+       <input type="password" name="password" id="password">
+       <br><br>
+       <input type="checkbox" name="checkbox" id="checkbox">
+       <label for="checkcox">Agree to terms and conditions</label>
+       <br><br>
+       <label for="profile">Choose File</label>
+       <input type="file" name="profile" id="profile">
+       <br><br>
+       <label for="color">Choose Color</label>
+       <input type="color" name="color" id="color">
+       <br><br>
+       <input type="reset" value="reset">
+        <input type="submit" value="summit">
+        
+    </fieldset>
+    </form>
+</body>
+</html>
